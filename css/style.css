@@ -33,13 +33,7 @@ nav ul li a:hover, nav ul li a:focus{
      display: grid;
      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
      gap: 13px;
-     align-items: center;
 }
-/* .container img{
-     display: block;
-     max-width: 100%;
-     height: auto;
-} */
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
 .container div:first-child{
@@ -79,12 +73,11 @@ nav ul li a:hover, nav ul li a:focus{
 
 .accounts-image, .onlinebanking-image, .security-image, .loans-image, .contact-image{
      grid-column: 1 / 6;
+     max-height: 675px;
 }
 .container img{
-     display: block;
+     /* display: block; */
      height:100%;
-     width: auto;
-     max-height: 675px;
      width:100%;
 }
 
@@ -92,6 +85,7 @@ nav ul li a:hover, nav ul li a:focus{
 
  .text-block{
      text-align: center;
+     align-self:center;
  }
 
  .text-block ul{
