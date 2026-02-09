@@ -85,6 +85,7 @@ nav ul li a:hover, nav ul li a:focus{
      height:100%;
      width: auto;
      max-height: 675px;
+     width:100%;
 }
 
  /* Step 8: Write the selector/rule property to style the .text-block class. */
@@ -107,8 +108,6 @@ nav ul li a:hover, nav ul li a:focus{
      .container div:first-child{
           grid-column: 1 / 8;
      }
-
-     
 
 
   /* Step 11: Write the selector/rule property to update the .container class */
